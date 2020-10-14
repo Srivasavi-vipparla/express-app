@@ -4,7 +4,7 @@ const app = express()
 
 
 app.get('/', (req, res) => {
-    res.send(' Hey , i am  Sri Vasavi ..This is my express app ')
+    res.send(' Hello world ')
   })
   
   app.listen(3333, () => {
